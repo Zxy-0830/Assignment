@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Lora', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(../img/mike-uderevsky-JuJYPgv4Rag-unsplash.jpg);
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-left nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-left nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar-left nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar input[type="text"] {
+    background: #f2f3f4 url(../img/search-13-48.png) no-repeat 10px 50%;
+    background-size: 15px;
+    padding: 8px 12px;
+    padding-left: 35px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    outline: none;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 150px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    text-align: center;
+    line-height: 30px; 
+    border-radius: 50%;
+    background-size: 60%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin-right: 10px;
+  
+  }
+  
+  .icon.article {
+    background-image: url('../img/article-48.png'); 
+  }
+  
+  .icon.user {
+    background-image: url('../img/user-48.png'); 
+  }
+  
+  .icon.author {
+    background-image: url('../img/businessman-48.png'); 
+    background-color: #4caf50;
+  }
+  
+  .icon.message {
+    background-image: url('../img/message-2-48.png');
+  }
+  
+  .icon.visit {
+    background-image: url('../img/access-2-48.png'); 
+  }
+
+  .user { background-color: #2196f3; }
+  .article { background-color: #ff5722; }
+  .author { background-color: #4caf50; }
+  .message { background-color: #9c27b0; }
+  .visit { background-color: #ffc107; }
+  
+  button {
+    padding: 5px 15px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #574fcc;
+  }
+  
+
+  
